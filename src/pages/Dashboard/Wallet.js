@@ -33,7 +33,7 @@ function Wallet({ walletFunctions, walletVariables }) {
   return (
     <div className="h-full">
       <div className="w-1/2 mx-auto mb-4 text-gray-200 text-center">
-        <SyncButton synced={isSynced} />
+        <SyncBanner synced={isSynced} />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
